@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieDropBlock", "..\CookieDropBlock\CookieDropBlock.csproj", "{9774D465-1F5A-45DF-BC16-FA70544BDBAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{C5932F52-625A-4BA0-AE44-13C62FC0DF17}"
+	ProjectSection(SolutionItems) = preProject
+		..\Nuget\Package\CookieDropBlock.nuspec = ..\Nuget\Package\CookieDropBlock.nuspec
+		..\Nuget\pack.bat = ..\Nuget\pack.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
