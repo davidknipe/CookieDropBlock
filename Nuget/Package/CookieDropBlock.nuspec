@@ -2,19 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>CookieDropBlock</id>
-    <title>CookieDropBlock for EPiServer</title>
-    <version>1.0.4</version>
-    <authors>David Knipe</authors>
+    <title>CookieDropBlock for Episerver</title>
+    <version>1.0.5</version>
+    <authors>David Knipe, Vincent Baaij</authors>
     <owners>David Knipe</owners>
     <licenseUrl>https://github.com/davidknipe/CookieDropBlock/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>http://www.david-tec.com/2015/09/cookie-drop-block-for-episerver/</projectUrl>
     <iconUrl>http://www.david-tec.com/global/media/nugeticons/CookieDropBlock.png?v=1.0.2</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>CookieDropBlock for EPiServer 8 and 9 allows edits to drop cookies on a page by inserting a block into a content area</description>
-    <releaseNotes>v1.0.4 Adds compatibility for EPiServer 9</releaseNotes>
-    <tags>EPiServer VisitorGroups Personalisation Cookies CookieDropBlock</tags>
+    <description>CookieDropBlock for Episerver (8, 9 and 10) allows edits to drop cookies on a page by inserting a block into a content area</description>
+    <releaseNotes>v1.0.5 Adds compatibility for Episerver 10</releaseNotes>
+    <tags>Episerver VisitorGroups Personalisation Cookies CookieDropBlock</tags>
     <dependencies>
-      <dependency id="EPiServer.CMS.UI" version="[8.0, 10.0)" />
+      <dependency id="EPiServer.CMS.UI" version="[8.0, 11.0)" />
     </dependencies>
   </metadata>
 </package>
