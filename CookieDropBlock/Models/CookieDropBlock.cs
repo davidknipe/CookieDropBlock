@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using CookieDropBlock.Attributes;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
@@ -10,7 +11,7 @@ namespace CookieDropBlock.Models
         DisplayName = "Cookie Drop Block",
         GUID = "21957414-ab47-4788-b043-9dbe13b7eeb4",
         Description = "Used to drop a cookie on a page")]
-    [ImageUrl("/ClientResources/Images/block-type-thumbnail-cookiedrop.png")]
+    [Icon]
     public class CookieDropBlock : BlockData
     {
         [CultureSpecific]
@@ -41,8 +42,7 @@ namespace CookieDropBlock.Models
         {
             base.SetDefaultValues(contentType);
 
-            this.HideEditModeMessage = false;
+            HideEditModeMessage = false;
         }
-
     }
 }
