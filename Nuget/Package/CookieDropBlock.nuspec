@@ -3,7 +3,7 @@
   <metadata>
     <id>CookieDropBlock</id>
     <title>CookieDropBlock for Episerver</title>
-    <version>11.0.0</version>
+    <version>11.0.6</version>
     <authors>David Knipe, Vincent Baaij</authors>
     <owners>David Knipe</owners>
     <licenseUrl>https://github.com/davidknipe/CookieDropBlock/blob/master/LICENSE.md</licenseUrl>
@@ -11,7 +11,7 @@
     <iconUrl>http://www.david-tec.com/global/media/nugeticons/CookieDropBlock.png?v=1.0.2</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>CookieDropBlock for Episerver allows edits to drop cookies on a page by inserting a block into a content area</description>
-    <releaseNotes>v11.0.0 Adds compatibility for Episerver 11</releaseNotes>
+    <releaseNotes>v11.0.6 Fixes a bug where the expiry date has passed, now defaults to current date plus 10 years</releaseNotes>
     <tags>Episerver VisitorGroups Personalisation Cookies CookieDropBlock</tags>
     <dependencies>
       <dependency id="EPiServer.CMS.Core" version="[11.0, 12.0)" />
