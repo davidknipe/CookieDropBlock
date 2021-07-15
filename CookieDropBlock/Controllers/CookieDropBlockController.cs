@@ -1,13 +1,13 @@
-﻿using System.Web.Mvc;
-using EPiServer.Web.Mvc;
+﻿using EPiServer.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CookieDropBlock.Controllers
 {
-    public class CookieDropBlockController : BlockController<Models.CookieDropBlock>
+    public class CookieDropBlockController : BlockComponent<Models.CookieDropBlock>
     {
-        public override ActionResult Index(Models.CookieDropBlock currentContent)
+        public override IViewComponentResult Invoke(Models.CookieDropBlock currentContent)
         {
-            return PartialView("~/modules/_protected/CookieDropBlock/Views/CookieDropBlock.cshtml", currentContent);
+            return View("/Views/CookieDropBlock/Index.cshtml", currentContent);
         }
     }
 }

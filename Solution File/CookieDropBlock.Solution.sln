@@ -3,18 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieDropBlock", "..\CookieDropBlock\CookieDropBlock.csproj", "{9774D465-1F5A-45DF-BC16-FA70544BDBAD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{C5932F52-625A-4BA0-AE44-13C62FC0DF17}"
-	ProjectSection(SolutionItems) = preProject
-		..\Nuget\Package\CookieDropBlock.nuspec = ..\Nuget\Package\CookieDropBlock.nuspec
-		..\Nuget\pack.bat = ..\Nuget\pack.bat
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6877307-7340-41A1-9F6D-FFCF6A5DA72D}"
-	ProjectSection(SolutionItems) = preProject
-		..\README.md = ..\README.md
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieDropBlock", "..\CookieDropBlock\CookieDropBlock.csproj", "{2E7D1AA5-65FB-45E2-B296-73C11533FC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9774D465-1F5A-45DF-BC16-FA70544BDBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7D1AA5-65FB-45E2-B296-73C11533FC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7D1AA5-65FB-45E2-B296-73C11533FC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7D1AA5-65FB-45E2-B296-73C11533FC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7D1AA5-65FB-45E2-B296-73C11533FC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8ADD2D6D-97E7-4960-AAA5-BA91DE6BB522}
+		SolutionGuid = {ECC0F029-B82B-4CE7-964C-7DBAFA895583}
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using CookieDropBlock.Attributes;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
@@ -20,7 +19,7 @@ namespace CookieDropBlock.Models
             Description = "The name of the cookie to drop on the page",
             GroupName = "Cookie Information",
             Order = 10)]
-        public virtual String CookieName { get; set; }
+        public virtual string CookieName { get; set; }
 
         [CultureSpecific]
         [Display(
@@ -28,7 +27,7 @@ namespace CookieDropBlock.Models
             Description = "The value to set for the cookie",
             GroupName = "Cookie Information",
             Order = 20)]
-        public virtual String CookieValue { get; set; }
+        public virtual string CookieValue { get; set; }
 
         [CultureSpecific]
         [Display(

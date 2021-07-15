@@ -1,5 +1,4 @@
-﻿using EPiServer.Configuration;
-using EPiServer.DataAnnotations;
+﻿using EPiServer.DataAnnotations;
 
 namespace CookieDropBlock.Attributes
 {
@@ -7,13 +6,6 @@ namespace CookieDropBlock.Attributes
     {
         public IconAttribute() : base("~/ignored") { }
 
-        public override string Path
-        {
-            get
-            {
-                var uiUrl = Settings.Instance.UIUrl.OriginalString.TrimStart("~/".ToCharArray()).TrimEnd("/".ToCharArray()).TrimEnd("CMS".ToCharArray());
-                return "~/" + uiUrl + "/CookieDropBlock/Images/block-type-thumbnail-cookiedrop.png";
-            }
-        }
+        public override string Path => "/cookiedropblock/blockicon";
     }
 }

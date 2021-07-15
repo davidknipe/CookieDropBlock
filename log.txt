@@ -1,0 +1,124 @@
+2021-07-02 15:57:22.026 +01:00 [INF] Loaded 3 extensions
+2021-07-02 15:57:24.193 +01:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.201\
+2021-07-02 15:57:28.112 +01:00 [INF] Initializing upgrade step Select an entrypoint
+2021-07-02 15:57:28.117 +01:00 [INF] Setting entrypoint to only project in solution: F:\_github\CookieDropBlock\CookieDropBlock\CookieDropBlock.csproj
+2021-07-02 15:57:28.133 +01:00 [INF] Initializing upgrade step Select project to upgrade
+2021-07-02 15:57:28.270 +01:00 [INF] Initializing upgrade step Back up project
+2021-07-02 15:57:39.106 +01:00 [INF] Applying upgrade step Back up project
+2021-07-02 15:57:44.465 +01:00 [INF] Backing up F:\_github\CookieDropBlock\CookieDropBlock to F:\_github\CookieDropBlock\Solution File.backup\CookieDropBlock
+2021-07-02 15:57:50.573 +01:00 [INF] Project backed up to F:\_github\CookieDropBlock\Solution File.backup\CookieDropBlock
+2021-07-02 15:57:50.576 +01:00 [INF] Upgrade step Back up project applied successfully
+2021-07-02 15:57:53.468 +01:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-07-02 15:57:56.062 +01:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-07-02 15:57:56.069 +01:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-07-02 15:57:56.462 +01:00 [INF] [dotnet] F:\_github\CookieDropBlock\CookieDropBlock\CookieDropBlock.csproj contains a reference to System.Web, which is not supported on .NET Core. You may have significant work ahead of you to fully port this project.
+2021-07-02 15:57:58.140 +01:00 [INF] [dotnet] Conversion complete!
+2021-07-02 15:57:58.676 +01:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-07-02 15:58:01.726 +01:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-07-02 15:58:05.123 +01:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-07-02 15:58:06.604 +01:00 [INF] Marking package System.ComponentModel.Annotations, Version=4.4.0 for removal because it is referenced elsewhere in the project with a higher version
+2021-07-02 15:58:06.635 +01:00 [INF] Marking package Castle.Core for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.639 +01:00 [INF] Marking package Castle.Windsor for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.643 +01:00 [INF] Marking package EPiServer.CMS.Core for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.647 +01:00 [INF] Marking package EPiServer.Framework for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.650 +01:00 [INF] Marking package EPiServer.Framework.AspNet for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.653 +01:00 [INF] Marking package Microsoft.AspNet.Mvc for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.657 +01:00 [INF] Marking package Microsoft.AspNet.Razor for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.659 +01:00 [INF] Marking package Microsoft.AspNet.WebPages for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.663 +01:00 [INF] Marking package Microsoft.Tpl.Dataflow for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.666 +01:00 [INF] Marking package Microsoft.Web.Infrastructure for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.669 +01:00 [INF] Marking package Newtonsoft.Json for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.673 +01:00 [INF] Marking package System.Data.SqlClient for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.676 +01:00 [INF] Marking package System.Reflection.Emit for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.679 +01:00 [INF] Marking package System.Security.AccessControl for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.685 +01:00 [INF] Marking package System.Security.Permissions for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.689 +01:00 [INF] Marking package System.Security.Principal.Windows for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.694 +01:00 [INF] Marking package System.Threading.AccessControl for removal because it appears to be a transitive dependency
+2021-07-02 15:58:06.704 +01:00 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-07-02 15:58:06.709 +01:00 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-07-02 15:58:08.107 +01:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.233001) needs added
+2021-07-02 15:58:08.120 +01:00 [INF] References to be removed: System.Configuration
+2021-07-02 15:58:08.121 +01:00 [INF] Packages to be removed: System.ComponentModel.Annotations, Version=4.4.0
+Castle.Core, Version=4.2.1
+Castle.Windsor, Version=4.1.0
+EPiServer.CMS.Core, Version=11.1.0
+EPiServer.Framework, Version=11.1.0
+EPiServer.Framework.AspNet, Version=11.1.0
+Microsoft.AspNet.Mvc, Version=4.0.20710.0
+Microsoft.AspNet.Razor, Version=2.0.20710.0
+Microsoft.AspNet.WebPages, Version=2.0.20710.0
+Microsoft.Tpl.Dataflow, Version=4.5.24
+Microsoft.Web.Infrastructure, Version=1.0.0.0
+Newtonsoft.Json, Version=9.0.1
+System.Data.SqlClient, Version=4.4.0
+System.Reflection.Emit, Version=4.3.0
+System.Security.AccessControl, Version=4.4.0
+System.Security.Permissions, Version=4.4.0
+System.Security.Principal.Windows, Version=4.4.0
+System.Threading.AccessControl, Version=4.4.0
+2021-07-02 15:58:08.124 +01:00 [INF] Packages to be added: System.Configuration.ConfigurationManager, Version=5.0.0
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.233001
+2021-07-02 15:58:13.487 +01:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-07-02 15:58:13.495 +01:00 [INF] Removing outdated assembly reference: System.Configuration
+2021-07-02 15:58:13.499 +01:00 [INF] Removing outdated package reference: Castle.Core, Version=4.2.1
+2021-07-02 15:58:13.500 +01:00 [INF] Removing outdated package reference: Castle.Windsor, Version=4.1.0
+2021-07-02 15:58:13.502 +01:00 [INF] Removing outdated package reference: EPiServer.CMS.Core, Version=11.1.0
+2021-07-02 15:58:13.503 +01:00 [INF] Removing outdated package reference: EPiServer.Framework, Version=11.1.0
+2021-07-02 15:58:13.505 +01:00 [INF] Removing outdated package reference: EPiServer.Framework.AspNet, Version=11.1.0
+2021-07-02 15:58:13.509 +01:00 [INF] Removing outdated package reference: Microsoft.AspNet.Mvc, Version=4.0.20710.0
+2021-07-02 15:58:13.510 +01:00 [INF] Removing outdated package reference: Microsoft.AspNet.Razor, Version=2.0.20710.0
+2021-07-02 15:58:13.512 +01:00 [INF] Removing outdated package reference: Microsoft.AspNet.WebPages, Version=2.0.20710.0
+2021-07-02 15:58:13.513 +01:00 [INF] Removing outdated package reference: Microsoft.Tpl.Dataflow, Version=4.5.24
+2021-07-02 15:58:13.515 +01:00 [INF] Removing outdated package reference: Microsoft.Web.Infrastructure, Version=1.0.0.0
+2021-07-02 15:58:13.518 +01:00 [INF] Removing outdated package reference: Newtonsoft.Json, Version=9.0.1
+2021-07-02 15:58:13.519 +01:00 [INF] Removing outdated package reference: System.ComponentModel.Annotations, Version=4.4.0
+2021-07-02 15:58:13.521 +01:00 [INF] Removing outdated package reference: System.Data.SqlClient, Version=4.4.0
+2021-07-02 15:58:13.523 +01:00 [INF] Removing outdated package reference: System.Reflection.Emit, Version=4.3.0
+2021-07-02 15:58:13.524 +01:00 [INF] Removing outdated package reference: System.Security.AccessControl, Version=4.4.0
+2021-07-02 15:58:13.526 +01:00 [INF] Removing outdated package reference: System.Security.Permissions, Version=4.4.0
+2021-07-02 15:58:13.529 +01:00 [INF] Removing outdated package reference: System.Security.Principal.Windows, Version=4.4.0
+2021-07-02 15:58:13.531 +01:00 [INF] Removing outdated package reference: System.Threading.AccessControl, Version=4.4.0
+2021-07-02 15:58:13.534 +01:00 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-07-02 15:58:13.535 +01:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.233001
+2021-07-02 15:58:16.558 +01:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-07-02 15:58:20.515 +01:00 [INF] Initializing upgrade step Update TFM
+2021-07-02 15:58:20.529 +01:00 [INF] TFM needs updated to net5.0
+2021-07-02 15:58:25.728 +01:00 [INF] Applying upgrade step Update TFM
+2021-07-02 15:58:29.755 +01:00 [INF] Updated TFM to net5.0
+2021-07-02 15:58:29.756 +01:00 [INF] Upgrade step Update TFM applied successfully
+2021-07-02 15:58:33.634 +01:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-07-02 15:58:35.885 +01:00 [INF] Marking assembly reference System.Web for removal based on package mapping configuration ASP.NET
+2021-07-02 15:58:35.886 +01:00 [INF] Adding framework reference Microsoft.AspNetCore.App based on package mapping configuration ASP.NET
+2021-07-02 15:58:37.169 +01:00 [WRN] No version of EPiServer.CMS.AspNet found that supports ["net5.0"]; leaving unchanged
+2021-07-02 15:58:37.183 +01:00 [INF] References to be removed: System.Web
+2021-07-02 15:58:37.184 +01:00 [INF] Framework references to be added: Microsoft.AspNetCore.App
+2021-07-02 15:58:40.598 +01:00 [INF] Applying upgrade step Update NuGet Packages
+2021-07-02 15:58:40.601 +01:00 [INF] Removing outdated assembly reference: System.Web
+2021-07-02 15:58:40.603 +01:00 [INF] Adding framework reference: Microsoft.AspNetCore.App
+2021-07-02 15:58:43.764 +01:00 [WRN] No version of EPiServer.CMS.AspNet found that supports ["net5.0"]; leaving unchanged
+2021-07-02 15:58:43.775 +01:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-07-02 15:58:53.781 +01:00 [INF] Initializing upgrade step Add template files
+2021-07-02 15:58:53.794 +01:00 [INF] 0 expected template items needed
+2021-07-02 15:58:53.795 +01:00 [INF] Initializing upgrade step Upgrade app config files
+2021-07-02 15:58:53.871 +01:00 [INF] Found 0 app settings for upgrade: 
+2021-07-02 15:58:53.875 +01:00 [INF] Found 0 connection strings for upgrade: 
+2021-07-02 15:58:53.883 +01:00 [INF] 0 web page namespace imports need upgraded: 
+2021-07-02 15:58:53.891 +01:00 [INF] Initializing upgrade step Update Razor files
+2021-07-02 15:58:56.953 +01:00 [INF] Identified 0 diagnostics in Razor files in project CookieDropBlock
+2021-07-02 15:58:56.959 +01:00 [INF] Found @helper functions in 0 documents
+2021-07-02 15:58:56.966 +01:00 [INF] Initializing upgrade step Update source code
+2021-07-02 15:59:10.839 +01:00 [INF] Applying upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces
+2021-07-02 15:59:11.172 +01:00 [INF] Diagnostic UA0001 fixed in F:\_github\CookieDropBlock\CookieDropBlock\Controllers\CookieDropBlockController.cs
+2021-07-02 15:59:11.275 +01:00 [INF] Upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces applied successfully
+2021-07-02 15:59:15.881 +01:00 [INF] Applying upgrade step Apply fix for UA0002: Types should be upgraded
+2021-07-02 15:59:16.354 +01:00 [INF] Diagnostic UA0002 fixed in F:\_github\CookieDropBlock\CookieDropBlock\Controllers\CookieDropBlockController.cs
+2021-07-02 15:59:16.447 +01:00 [INF] Applying upgrade step Update source code
+2021-07-02 15:59:17.099 +01:00 [INF] Upgrade step Update source code applied successfully
+2021-07-02 15:59:17.101 +01:00 [INF] Upgrade step Apply fix for UA0002: Types should be upgraded applied successfully
+2021-07-02 15:59:19.284 +01:00 [INF] Initializing upgrade step Move to next project
+2021-07-02 15:59:22.159 +01:00 [INF] Applying upgrade step Move to next project
+2021-07-02 15:59:22.162 +01:00 [INF] Upgrade step Move to next project applied successfully
+2021-07-02 15:59:29.522 +01:00 [INF] Initializing upgrade step Finalize upgrade
+2021-07-02 15:59:32.199 +01:00 [INF] Applying upgrade step Finalize upgrade
+2021-07-02 15:59:32.201 +01:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-07-02 15:59:35.572 +01:00 [INF] Upgrade has completed. Please review any changes.

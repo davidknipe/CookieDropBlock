@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("CookieDropBlock")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("CookieDropBlock for Optimizely allows edits to drop cookies on a page by inserting a block into a content area")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("12.0.0.0-beta")]
 [assembly: AssemblyProduct("CookieDropBlock")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.6.0")]
-[assembly: AssemblyFileVersion("1.0.6.0")]
+[assembly: AssemblyVersion("12.0.0.0")]
+[assembly: AssemblyFileVersion("12.0.0.0")]
