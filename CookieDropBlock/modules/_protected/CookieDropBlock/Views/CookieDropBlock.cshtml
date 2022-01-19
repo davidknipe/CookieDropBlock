@@ -1,3 +1,4 @@
+@using System.Web.Configuration
 @using EPiServer.Web.Mvc.Html
 @model CookieDropBlock.Models.CookieDropBlock
 
@@ -15,7 +16,7 @@ else
 {
     <script type="text/javascript">
     // <![CDATA[
-    document.cookie = "@Model.CookieName=@Model.CookieValue; expires=Thu, 31 Dec @DateTime.Now.AddYears(10).Year 12:00:00 UTC; path=/";
+    document.cookie = "@Model.CookieName=@Model.CookieValue; expires=@DateTime.Now.AddYears(int.Parse(WebConfigurationManager.AppSettings["CookieDropBlockExpiryYears"] ?? "10")).ToString("R"); path=/";
     // ]]>
     </script>
 }
